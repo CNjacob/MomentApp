@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59D35F728556E1FE4FBC3755 /* Pods_MomentApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5A62228DF8EC7465EF9834 /* Pods_MomentApp.framework */; };
+		CE89B48C260D8D5B00D0112C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89B48B260D8D5B00D0112C /* AppDelegate.swift */; };
+		CE89B48E260D8D5B00D0112C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89B48D260D8D5B00D0112C /* SceneDelegate.swift */; };
+		CE89B490260D8D5B00D0112C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89B48F260D8D5B00D0112C /* ViewController.swift */; };
+		CE89B493260D8D5B00D0112C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE89B491260D8D5B00D0112C /* Main.storyboard */; };
+		CE89B495260D8D5C00D0112C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE89B494260D8D5C00D0112C /* Assets.xcassets */; };
+		CE89B498260D8D5C00D0112C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE89B496260D8D5C00D0112C /* LaunchScreen.storyboard */; };
+		CE89B4A3260D8D5D00D0112C /* MomentAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89B4A2260D8D5D00D0112C /* MomentAppTests.swift */; };
+		CE89B4AE260D8D5D00D0112C /* MomentAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE89B4AD260D8D5D00D0112C /* MomentAppUITests.swift */; };
+		D1E4CBAE1AD8CCDA4CC1A282 /* Pods_MomentAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9F84CFBEDF03208DEFFA96 /* Pods_MomentAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE89B49F260D8D5D00D0112C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE89B480260D8D5B00D0112C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE89B487260D8D5B00D0112C;
+			remoteInfo = MomentApp;
+		};
+		CE89B4AA260D8D5D00D0112C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE89B480260D8D5B00D0112C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE89B487260D8D5B00D0112C;
+			remoteInfo = MomentApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37C43FB3A300212ECDCBF21E /* Pods-MomentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentApp.debug.xcconfig"; path = "Target Support Files/Pods-MomentApp/Pods-MomentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		8DA1BA4D23FBB345C21D4712 /* Pods-MomentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentAppTests.release.xcconfig"; path = "Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		94669BD64B5797B54AF6B61B /* Pods-MomentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE89B488260D8D5B00D0112C /* MomentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE89B48B260D8D5B00D0112C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE89B48D260D8D5B00D0112C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE89B48F260D8D5B00D0112C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE89B492260D8D5B00D0112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE89B494260D8D5C00D0112C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE89B497260D8D5C00D0112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE89B499260D8D5C00D0112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE89B49E260D8D5D00D0112C /* MomentAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE89B4A2260D8D5D00D0112C /* MomentAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentAppTests.swift; sourceTree = "<group>"; };
+		CE89B4A4260D8D5D00D0112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE89B4A9260D8D5D00D0112C /* MomentAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE89B4AD260D8D5D00D0112C /* MomentAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentAppUITests.swift; sourceTree = "<group>"; };
+		CE89B4AF260D8D5D00D0112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9F84CFBEDF03208DEFFA96 /* Pods_MomentAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A37FB01ED0C409833B6804 /* Pods-MomentApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentApp.release.xcconfig"; path = "Target Support Files/Pods-MomentApp/Pods-MomentApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE5A62228DF8EC7465EF9834 /* Pods_MomentApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MomentApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE89B485260D8D5B00D0112C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59D35F728556E1FE4FBC3755 /* Pods_MomentApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE89B49B260D8D5D00D0112C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1E4CBAE1AD8CCDA4CC1A282 /* Pods_MomentAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE89B4A6260D8D5D00D0112C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6D2BE74F2011698D73F35E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5A62228DF8EC7465EF9834 /* Pods_MomentApp.framework */,
+				DB9F84CFBEDF03208DEFFA96 /* Pods_MomentAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6D3949C7BCDD637A1C9CB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37C43FB3A300212ECDCBF21E /* Pods-MomentApp.debug.xcconfig */,
+				E8A37FB01ED0C409833B6804 /* Pods-MomentApp.release.xcconfig */,
+				94669BD64B5797B54AF6B61B /* Pods-MomentAppTests.debug.xcconfig */,
+				8DA1BA4D23FBB345C21D4712 /* Pods-MomentAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		CE89B47F260D8D5B00D0112C = {
+			isa = PBXGroup;
+			children = (
+				CE89B48A260D8D5B00D0112C /* MomentApp */,
+				CE89B4A1260D8D5D00D0112C /* MomentAppTests */,
+				CE89B4AC260D8D5D00D0112C /* MomentAppUITests */,
+				CE89B489260D8D5B00D0112C /* Products */,
+				AB6D3949C7BCDD637A1C9CB9 /* Pods */,
+				A6D2BE74F2011698D73F35E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE89B489260D8D5B00D0112C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE89B488260D8D5B00D0112C /* MomentApp.app */,
+				CE89B49E260D8D5D00D0112C /* MomentAppTests.xctest */,
+				CE89B4A9260D8D5D00D0112C /* MomentAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE89B48A260D8D5B00D0112C /* MomentApp */ = {
+			isa = PBXGroup;
+			children = (
+				CE89B48B260D8D5B00D0112C /* AppDelegate.swift */,
+				CE89B48D260D8D5B00D0112C /* SceneDelegate.swift */,
+				CE89B48F260D8D5B00D0112C /* ViewController.swift */,
+				CE89B491260D8D5B00D0112C /* Main.storyboard */,
+				CE89B494260D8D5C00D0112C /* Assets.xcassets */,
+				CE89B496260D8D5C00D0112C /* LaunchScreen.storyboard */,
+				CE89B499260D8D5C00D0112C /* Info.plist */,
+			);
+			path = MomentApp;
+			sourceTree = "<group>";
+		};
+		CE89B4A1260D8D5D00D0112C /* MomentAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE89B4A2260D8D5D00D0112C /* MomentAppTests.swift */,
+				CE89B4A4260D8D5D00D0112C /* Info.plist */,
+			);
+			path = MomentAppTests;
+			sourceTree = "<group>";
+		};
+		CE89B4AC260D8D5D00D0112C /* MomentAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE89B4AD260D8D5D00D0112C /* MomentAppUITests.swift */,
+				CE89B4AF260D8D5D00D0112C /* Info.plist */,
+			);
+			path = MomentAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE89B487260D8D5B00D0112C /* MomentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE89B4B2260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentApp" */;
+			buildPhases = (
+				51E39324BBC54CDB680FEBB7 /* [CP] Check Pods Manifest.lock */,
+				CE89B484260D8D5B00D0112C /* Sources */,
+				CE89B485260D8D5B00D0112C /* Frameworks */,
+				CE89B486260D8D5B00D0112C /* Resources */,
+				4743AF1FB1E61B36B47BAA96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentApp;
+			productName = MomentApp;
+			productReference = CE89B488260D8D5B00D0112C /* MomentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE89B49D260D8D5D00D0112C /* MomentAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE89B4B5260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentAppTests" */;
+			buildPhases = (
+				3FE0A1C2AAD118DEEB68829C /* [CP] Check Pods Manifest.lock */,
+				CE89B49A260D8D5D00D0112C /* Sources */,
+				CE89B49B260D8D5D00D0112C /* Frameworks */,
+				CE89B49C260D8D5D00D0112C /* Resources */,
+				36F2D1019EAE1C138A8A8770 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE89B4A0260D8D5D00D0112C /* PBXTargetDependency */,
+			);
+			name = MomentAppTests;
+			productName = MomentAppTests;
+			productReference = CE89B49E260D8D5D00D0112C /* MomentAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE89B4A8260D8D5D00D0112C /* MomentAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE89B4B8260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentAppUITests" */;
+			buildPhases = (
+				CE89B4A5260D8D5D00D0112C /* Sources */,
+				CE89B4A6260D8D5D00D0112C /* Frameworks */,
+				CE89B4A7260D8D5D00D0112C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE89B4AB260D8D5D00D0112C /* PBXTargetDependency */,
+			);
+			name = MomentAppUITests;
+			productName = MomentAppUITests;
+			productReference = CE89B4A9260D8D5D00D0112C /* MomentAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE89B480260D8D5B00D0112C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CE89B487260D8D5B00D0112C = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CE89B49D260D8D5D00D0112C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CE89B487260D8D5B00D0112C;
+					};
+					CE89B4A8260D8D5D00D0112C = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CE89B487260D8D5B00D0112C;
+					};
+				};
+			};
+			buildConfigurationList = CE89B483260D8D5B00D0112C /* Build configuration list for PBXProject "MomentApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE89B47F260D8D5B00D0112C;
+			productRefGroup = CE89B489260D8D5B00D0112C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE89B487260D8D5B00D0112C /* MomentApp */,
+				CE89B49D260D8D5D00D0112C /* MomentAppTests */,
+				CE89B4A8260D8D5D00D0112C /* MomentAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE89B486260D8D5B00D0112C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE89B498260D8D5C00D0112C /* LaunchScreen.storyboard in Resources */,
+				CE89B495260D8D5C00D0112C /* Assets.xcassets in Resources */,
+				CE89B493260D8D5B00D0112C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE89B49C260D8D5D00D0112C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE89B4A7260D8D5D00D0112C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36F2D1019EAE1C138A8A8770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FE0A1C2AAD118DEEB68829C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MomentAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4743AF1FB1E61B36B47BAA96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MomentApp/Pods-MomentApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MomentApp/Pods-MomentApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MomentApp/Pods-MomentApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E39324BBC54CDB680FEBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MomentApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE89B484260D8D5B00D0112C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE89B490260D8D5B00D0112C /* ViewController.swift in Sources */,
+				CE89B48C260D8D5B00D0112C /* AppDelegate.swift in Sources */,
+				CE89B48E260D8D5B00D0112C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE89B49A260D8D5D00D0112C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE89B4A3260D8D5D00D0112C /* MomentAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE89B4A5260D8D5D00D0112C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE89B4AE260D8D5D00D0112C /* MomentAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE89B4A0260D8D5D00D0112C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE89B487260D8D5B00D0112C /* MomentApp */;
+			targetProxy = CE89B49F260D8D5D00D0112C /* PBXContainerItemProxy */;
+		};
+		CE89B4AB260D8D5D00D0112C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE89B487260D8D5B00D0112C /* MomentApp */;
+			targetProxy = CE89B4AA260D8D5D00D0112C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE89B491260D8D5B00D0112C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE89B492260D8D5B00D0112C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE89B496260D8D5C00D0112C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE89B497260D8D5C00D0112C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE89B4B0260D8D5D00D0112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE89B4B1260D8D5D00D0112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE89B4B3260D8D5D00D0112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C43FB3A300212ECDCBF21E /* Pods-MomentApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE89B4B4260D8D5D00D0112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A37FB01ED0C409833B6804 /* Pods-MomentApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE89B4B6260D8D5D00D0112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94669BD64B5797B54AF6B61B /* Pods-MomentAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomentApp.app/MomentApp";
+			};
+			name = Debug;
+		};
+		CE89B4B7260D8D5D00D0112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA1BA4D23FBB345C21D4712 /* Pods-MomentAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomentApp.app/MomentApp";
+			};
+			name = Release;
+		};
+		CE89B4B9260D8D5D00D0112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomentApp;
+			};
+			name = Debug;
+		};
+		CE89B4BA260D8D5D00D0112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomentApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE89B483260D8D5B00D0112C /* Build configuration list for PBXProject "MomentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE89B4B0260D8D5D00D0112C /* Debug */,
+				CE89B4B1260D8D5D00D0112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE89B4B2260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE89B4B3260D8D5D00D0112C /* Debug */,
+				CE89B4B4260D8D5D00D0112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE89B4B5260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE89B4B6260D8D5D00D0112C /* Debug */,
+				CE89B4B7260D8D5D00D0112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE89B4B8260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE89B4B9260D8D5D00D0112C /* Debug */,
+				CE89B4BA260D8D5D00D0112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE89B480260D8D5B00D0112C /* Project object */;
+}
