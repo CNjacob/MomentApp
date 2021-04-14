@@ -1,0 +1,13 @@
+//
+//  CompilerAndLanguage.xcconfig
+//  MomentApp
+//
+//  Created by user on 2021/4/14.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CLANG_ENABLE_MODULES = YES
+SWIFT_VERSION = 5.0
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64

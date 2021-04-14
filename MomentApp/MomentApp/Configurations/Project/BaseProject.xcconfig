@@ -1,0 +1,13 @@
+//
+//  BaseProject.xcconfig
+//  MomentApp
+//
+//  Created by user on 2021/4/14.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "../Shared/CompilerAndLanguage.xcconfig"
+#include "../Shared/SDKAndDeviceSupport.xcconfig"
+#include "../Shared/BaseConfigurations.xcconfig"

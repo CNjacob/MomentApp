@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -38,8 +38,23 @@
 
 /* Begin PBXFileReference section */
 		37C43FB3A300212ECDCBF21E /* Pods-MomentApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentApp.debug.xcconfig"; path = "Target Support Files/Pods-MomentApp/Pods-MomentApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3FF8174E528056B88C630910 /* Pods-MomentApp.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentApp.internal.xcconfig"; path = "Target Support Files/Pods-MomentApp/Pods-MomentApp.internal.xcconfig"; sourceTree = "<group>"; };
+		53E0DCD4E4B927537B697A57 /* Pods-MomentAppTests.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentAppTests.appstore.xcconfig"; path = "Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests.appstore.xcconfig"; sourceTree = "<group>"; };
+		80DEDAE6F97199833552DCAC /* Pods-MomentAppTests.internal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentAppTests.internal.xcconfig"; path = "Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests.internal.xcconfig"; sourceTree = "<group>"; };
 		8DA1BA4D23FBB345C21D4712 /* Pods-MomentAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentAppTests.release.xcconfig"; path = "Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		94669BD64B5797B54AF6B61B /* Pods-MomentAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MomentAppTests/Pods-MomentAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDFF6C68314C98B59F3D65FF /* Pods-MomentApp.appstore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MomentApp.appstore.xcconfig"; path = "Target Support Files/Pods-MomentApp/Pods-MomentApp.appstore.xcconfig"; sourceTree = "<group>"; };
+		CE0159402626EA0A009F2902 /* AppStoreTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppStoreTarget.xcconfig; sourceTree = "<group>"; };
+		CE0159412626EA0A009F2902 /* DebugTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugTarget.xcconfig; sourceTree = "<group>"; };
+		CE0159422626EA0A009F2902 /* InternalTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = InternalTarget.xcconfig; sourceTree = "<group>"; };
+		CE0159432626EA0A009F2902 /* BaseTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseTarget.xcconfig; sourceTree = "<group>"; };
+		CE0159452626EA0A009F2902 /* CompilerAndLanguage.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CompilerAndLanguage.xcconfig; sourceTree = "<group>"; };
+		CE0159462626EA0A009F2902 /* Baseconfigurations.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Baseconfigurations.xcconfig; sourceTree = "<group>"; };
+		CE0159472626EA0A009F2902 /* SDKAndDeviceSupport.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SDKAndDeviceSupport.xcconfig; sourceTree = "<group>"; };
+		CE0159492626EA0A009F2902 /* InternalProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = InternalProject.xcconfig; sourceTree = "<group>"; };
+		CE01594A2626EA0A009F2902 /* AppStoreProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppStoreProject.xcconfig; sourceTree = "<group>"; };
+		CE01594B2626EA0A009F2902 /* DebugProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DebugProject.xcconfig; sourceTree = "<group>"; };
+		CE01594C2626EA0A009F2902 /* BaseProject.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = BaseProject.xcconfig; sourceTree = "<group>"; };
 		CE89B488260D8D5B00D0112C /* MomentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE89B48B260D8D5B00D0112C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE89B48D260D8D5B00D0112C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +117,55 @@
 				E8A37FB01ED0C409833B6804 /* Pods-MomentApp.release.xcconfig */,
 				94669BD64B5797B54AF6B61B /* Pods-MomentAppTests.debug.xcconfig */,
 				8DA1BA4D23FBB345C21D4712 /* Pods-MomentAppTests.release.xcconfig */,
+				3FF8174E528056B88C630910 /* Pods-MomentApp.internal.xcconfig */,
+				BDFF6C68314C98B59F3D65FF /* Pods-MomentApp.appstore.xcconfig */,
+				80DEDAE6F97199833552DCAC /* Pods-MomentAppTests.internal.xcconfig */,
+				53E0DCD4E4B927537B697A57 /* Pods-MomentAppTests.appstore.xcconfig */,
 			);
 			name = Pods;
 			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		CE01593E2626EA0A009F2902 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				CE01593F2626EA0A009F2902 /* Targets */,
+				CE0159442626EA0A009F2902 /* Shared */,
+				CE0159482626EA0A009F2902 /* Project */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		CE01593F2626EA0A009F2902 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				CE0159402626EA0A009F2902 /* AppStoreTarget.xcconfig */,
+				CE0159412626EA0A009F2902 /* DebugTarget.xcconfig */,
+				CE0159422626EA0A009F2902 /* InternalTarget.xcconfig */,
+				CE0159432626EA0A009F2902 /* BaseTarget.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		CE0159442626EA0A009F2902 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CE0159452626EA0A009F2902 /* CompilerAndLanguage.xcconfig */,
+				CE0159462626EA0A009F2902 /* Baseconfigurations.xcconfig */,
+				CE0159472626EA0A009F2902 /* SDKAndDeviceSupport.xcconfig */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CE0159482626EA0A009F2902 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				CE0159492626EA0A009F2902 /* InternalProject.xcconfig */,
+				CE01594A2626EA0A009F2902 /* AppStoreProject.xcconfig */,
+				CE01594B2626EA0A009F2902 /* DebugProject.xcconfig */,
+				CE01594C2626EA0A009F2902 /* BaseProject.xcconfig */,
+			);
+			path = Project;
 			sourceTree = "<group>";
 		};
 		CE89B47F260D8D5B00D0112C = {
@@ -132,6 +193,7 @@
 		CE89B48A260D8D5B00D0112C /* MomentApp */ = {
 			isa = PBXGroup;
 			children = (
+				CE01593E2626EA0A009F2902 /* Configurations */,
 				CE89B48B260D8D5B00D0112C /* AppDelegate.swift */,
 				CE89B48D260D8D5B00D0112C /* SceneDelegate.swift */,
 				CE89B48F260D8D5B00D0112C /* ViewController.swift */,
@@ -433,8 +495,247 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CE0158D32626D9B2009F2902 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0159492626EA0A009F2902 /* InternalProject.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Internal;
+		};
+		CE0158D42626D9B2009F2902 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0159422626EA0A009F2902 /* InternalTarget.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Internal;
+		};
+		CE0158D52626D9B2009F2902 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DEDAE6F97199833552DCAC /* Pods-MomentAppTests.internal.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomentApp.app/MomentApp";
+			};
+			name = Internal;
+		};
+		CE0158D62626D9B2009F2902 /* Internal */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomentApp;
+			};
+			name = Internal;
+		};
+		CE0158D72626D9FF009F2902 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE01594A2626EA0A009F2902 /* AppStoreProject.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = AppStore;
+		};
+		CE0158D82626D9FF009F2902 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE0159402626EA0A009F2902 /* AppStoreTarget.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = AppStore;
+		};
+		CE0158D92626D9FF009F2902 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E0DCD4E4B927537B697A57 /* Pods-MomentAppTests.appstore.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomentApp.app/MomentApp";
+			};
+			name = AppStore;
+		};
+		CE0158DA2626D9FF009F2902 /* AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2TU452EU8K;
+				INFOPLIST_FILE = MomentAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MomentApp;
+			};
+			name = AppStore;
+		};
 		CE89B4B0260D8D5D00D0112C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE01594B2626EA0A009F2902 /* DebugProject.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -494,64 +795,9 @@
 			};
 			name = Debug;
 		};
-		CE89B4B1260D8D5D00D0112C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		CE89B4B3260D8D5D00D0112C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37C43FB3A300212ECDCBF21E /* Pods-MomentApp.debug.xcconfig */;
+			baseConfigurationReference = CE0159412626EA0A009F2902 /* DebugTarget.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -568,26 +814,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		CE89B4B4260D8D5D00D0112C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8A37FB01ED0C409833B6804 /* Pods-MomentApp.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2TU452EU8K;
-				INFOPLIST_FILE = MomentApp/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
 		};
 		CE89B4B6260D8D5D00D0112C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -612,29 +838,6 @@
 			};
 			name = Debug;
 		};
-		CE89B4B7260D8D5D00D0112C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8DA1BA4D23FBB345C21D4712 /* Pods-MomentAppTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2TU452EU8K;
-				INFOPLIST_FILE = MomentAppTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MomentApp.app/MomentApp";
-			};
-			name = Release;
-		};
 		CE89B4B9260D8D5D00D0112C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -655,26 +858,6 @@
 			};
 			name = Debug;
 		};
-		CE89B4BA260D8D5D00D0112C /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2TU452EU8K;
-				INFOPLIST_FILE = MomentAppUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jacob.MomentAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MomentApp;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -682,37 +865,41 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE89B4B0260D8D5D00D0112C /* Debug */,
-				CE89B4B1260D8D5D00D0112C /* Release */,
+				CE0158D32626D9B2009F2902 /* Internal */,
+				CE0158D72626D9FF009F2902 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CE89B4B2260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE89B4B3260D8D5D00D0112C /* Debug */,
-				CE89B4B4260D8D5D00D0112C /* Release */,
+				CE0158D42626D9B2009F2902 /* Internal */,
+				CE0158D82626D9FF009F2902 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CE89B4B5260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE89B4B6260D8D5D00D0112C /* Debug */,
-				CE89B4B7260D8D5D00D0112C /* Release */,
+				CE0158D52626D9B2009F2902 /* Internal */,
+				CE0158D92626D9FF009F2902 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		CE89B4B8260D8D5D00D0112C /* Build configuration list for PBXNativeTarget "MomentAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE89B4B9260D8D5D00D0112C /* Debug */,
-				CE89B4BA260D8D5D00D0112C /* Release */,
+				CE0158D62626D9B2009F2902 /* Internal */,
+				CE0158DA2626D9FF009F2902 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
